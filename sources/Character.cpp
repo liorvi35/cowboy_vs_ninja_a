@@ -8,7 +8,7 @@ namespace ariel
 {
     Character::Character() : _playerName("player"), _healthPoints(100), _location(Point()) {}
 
-    Character::Character(string name, int hp, Point &p) : _playerName(name), _healthPoints(hp), _location(p) {}
+    Character::Character(string name, Point p) : _playerName(name), _healthPoints(100), _location(p) {}
 
     
     bool Character::isAlive()

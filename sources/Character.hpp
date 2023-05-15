@@ -21,19 +21,19 @@
             public:
                 Character();
 
-                Character(string, int, Point&);
+                Character(string, Point);
 
-                virtual bool isAlive();
+                bool isAlive();
 
-                virtual double distance(Character*);
+                double distance(Character*);
 
-                virtual void hit(int);
+                void hit(int);
 
-                virtual string getName();
+                string getName();
 
-                virtual Point getLocation();
+                Point getLocation();
 
-                virtual string print();
+                string print();
         };
     }
 

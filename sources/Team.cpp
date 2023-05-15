@@ -6,11 +6,15 @@ using namespace std;
 
 namespace ariel
 {
-    Team::Team(Character *leader) 
+    Team::Team(Character *leader)
     {
         this->_team.push_back(leader);
     }
 
+    void Team::add(Character *mem)
+    {
+        this->_team.push_back(mem);
+    }
 
     void Team::attack(Team *enemies) {}
 

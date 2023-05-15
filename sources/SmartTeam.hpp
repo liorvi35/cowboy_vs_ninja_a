@@ -8,14 +8,14 @@
 
     namespace ariel
     {
-        class SmartTeam 
+        class SmartTeam : public Team
         {
             public:
                 SmartTeam(Character*);
 
-                void attack(Team*) override;
+                void attack(Team*);
 
-                void print() override;
+                void print();
         };
     }
 

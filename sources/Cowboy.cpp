@@ -2,20 +2,27 @@
 #include <cmath>
 using namespace std;
 
-#include "Character.hpp"
+#include "Cowboy.hpp"
 
 namespace ariel
 {
-    Cowboy::Cowboy() : Character(), _speed(0) {}
-
-    Cowboy::Cowboy(string name, int hp, Point &p, int speed) : Character(name, hp, p), _bullets(6) {}
+    Cowboy::Cowboy(string name, Point p)
+    {
+        this->_playerName = name;
+        this->_location = p;
+        this->_bullets = 6;
+        this->_healthPoints = 110;
+    }
 
     void Cowboy::shoot(Character *other) {}
 
-    void Cowboy::hasboolets(Character *other) 
+    bool Cowboy::hasboolets()
     {
         return (this->_bullets > 0);
     }
 
-    void Ninja::reload(Character *other) {}
+    void Cowboy::reload()
+    {
+        this->_bullets = 6;
+    }
 }

@@ -8,7 +8,7 @@
 
     namespace ariel
     {
-        class TrainedNinja 
+        class TrainedNinja : public Ninja
         {
             public:
                 TrainedNinja(string, Point);

@@ -14,7 +14,9 @@
                 int _speed;
 
             public:
-                Ninja(string, int, Point, int);
+                Ninja();
+
+                Ninja(string, Point);
 
                 void move(Character*);
 

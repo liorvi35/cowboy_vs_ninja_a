@@ -6,5 +6,11 @@ using namespace std;
 
 namespace ariel
 {
-    OldNinja::OldNinja(string name, Point location) : Ninja(name, location, 150, 8) {} 
+    OldNinja::OldNinja(string name, Point location)
+    {
+        this->_playerName = name;
+        this->_location = location;
+        this->_speed = 8;
+        this->_healthPoints = 150;
+    }
 }

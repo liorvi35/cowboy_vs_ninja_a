@@ -10,17 +10,15 @@
     {
         class Cowboy : public Character
         {
-            private:
+            protected:
                 int _bullets;
 
             public:
-                Cowboy();
-
-                Cowboy(string, int, Point, int);
+                Cowboy(string, Point);
 
                 void shoot(Character*);
 
-                void hasboolets();
+                bool hasboolets();
 
                 void reload();
         };

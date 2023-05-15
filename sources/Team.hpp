@@ -23,11 +23,13 @@
 
                 Team(Character*);
 
-                virtual void attack(Team*);
+                void add(Character* mem);
+
+                void attack(Team*);
 
                 int stillAlive();
 
-                virtual void print();
+                void print();
         };
     }
 
