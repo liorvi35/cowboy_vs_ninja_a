@@ -11,7 +11,7 @@
         class OldNinja 
         {
             public:
-                OlddNinja(string, Point);
+                OldNinja(string, Point);
         };
     }
 
