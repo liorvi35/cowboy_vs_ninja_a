@@ -11,7 +11,7 @@
     {
         class Character 
         {
-            private:
+            protected:
                 string _playerName;
 
                 int _healthPoints;

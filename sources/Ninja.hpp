@@ -10,7 +10,7 @@
     {
         class Ninja : public Character
         {
-            private:
+            protected:
                 int _speed;
 
             public:
