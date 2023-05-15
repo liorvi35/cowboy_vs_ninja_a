@@ -5,6 +5,8 @@
     #include <string>
     using namespace std;
 
+    #include "Point.hpp"
+
     namespace ariel
     {
         class Character 
