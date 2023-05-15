@@ -27,7 +27,7 @@ namespace ariel
 
     void Point::print()
     {
-        cout << "(" << (this->_x) << "," (this->_y) << ")" << endl;
+        cout << "(" << (this->_x) << "," << (this->_y) << ")" << endl;
     } 
 
     Point Point::moveTowards(const Point &other1, const Point &other2, double distance)
@@ -41,7 +41,7 @@ namespace ariel
 
         res = other1.distance(other2);
 
-        if(reso <= distance)
+        if(res <= distance)
         {
             return other2;
         }

@@ -21,7 +21,7 @@
             public:
                 Character();
 
-                Character(string, int, Point);
+                Character(string, int, Point&);
 
                 virtual bool isAlive();
 

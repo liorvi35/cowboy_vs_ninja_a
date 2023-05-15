@@ -23,7 +23,7 @@ namespace ariel
 
     void Character::hit(int hit)
     {
-        this->_hp -= hit;
+        this->_healthPoints -= hit;
     }
 
     string Character::getName()

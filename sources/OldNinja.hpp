@@ -8,7 +8,7 @@
 
     namespace ariel
     {
-        class OlddNinja 
+        class OldNinja 
         {
             public:
                 OlddNinja(string, Point);
