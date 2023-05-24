@@ -1,16 +1,13 @@
+/**
+ * @brief implementations for trained-ninja object
+ * @authors Lior Vinman
+ */
+
 #include <iostream>
-#include <cmath>
 using namespace std;
 
 #include "TrainedNinja.hpp"
-
 namespace ariel
 {
-    TrainedNinja::TrainedNinja(string name, Point location)
-    {
-        this->_playerName = name;
-        this->_location = location;
-        this->_speed = 8;
-        this->_healthPoints = 150;
-    }
+    TrainedNinja::TrainedNinja(string name, Point loc) : Ninja(name, loc, 12, 120) {}
 }
